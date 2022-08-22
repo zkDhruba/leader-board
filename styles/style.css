@@ -95,5 +95,69 @@ hr {
  -----------------------> */
 
 #id-courses {
+    height: 382px;
     margin-top: 21px;
+}
+
+.latest-courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course {
+    width: 260px;
+    height: 290px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.course .banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-name {
+    width: 224px;
+}
+
+.course-author {
+    color: #ED6B4F;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star {
+    font-size: 12.25px;
+}
+
+.filled {
+    color: #FFC014;
+}
+
+.empty {
+    color: #AEAEAE;
+}
+
+.rating-number {
+    color: #A2A2A2;
+    font-size: 14px;
+}
+
+.duration {
+    width: 95px;
+    height: 30px;
+    background-color: #FFE4E8;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-clock,
+.duration-text {
+    color: #FF4A60;
+    padding-left: 5px;
 }
