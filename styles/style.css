@@ -1,6 +1,37 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Heebo&family=Lobster&family=Oleo+Script+Swash+Caps&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    height: 679px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
+.top-players {
+    margin-bottom: 24px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 
 .player {
@@ -11,4 +42,13 @@
 .players img {
     width: 56px;
     height: 56px;
+}
+
+.player-name-gap {
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
 }
