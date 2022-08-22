@@ -52,3 +52,35 @@ main {
 hr {
     border: 1px solid #D1D1D1;
 }
+
+
+/* -------------
+    Blogs Part
+--------------- */
+
+
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blogs {
+    display: flex;
+}
+
+.blog-authors {
+    color: #9F9F9F;
+}
+
+.blog-authors a {
+    text-decoration: none;
+    color: #562EFF;
+}
